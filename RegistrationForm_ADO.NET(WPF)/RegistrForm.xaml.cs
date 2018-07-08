@@ -10,26 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace RegistrationForm_ADO.NET_WPF_
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для RegistrForm.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class RegistrForm : Window
     {
-        public MainWindow()
+        public RegistrForm()
         {
             InitializeComponent();
         }
 
-        private void btnAddUser_Click(object sender, RoutedEventArgs e)
+        private void InitializeComponent()
         {
-            RegistrForm reg = new RegistrForm();
-            reg.Owner = this;
-            reg.Show();
+            throw new NotImplementedException();
         }
     }
 }
